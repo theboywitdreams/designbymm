@@ -38,7 +38,7 @@
 
 /* --- HERO SECTION --- */
 .hero {
-    background: url('/images/alberto-castillo-q-mx4mSkK9zeo-unsplash.webp') center/cover no-repeat;
+    background: url('/images/portfolio/hemant-kanojiya-2MRnWkAx4Fs-unsplash') center/cover no-repeat;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -974,5 +974,6 @@ button:hover {
     .contact-info h2,
     .map-section h2 { font-size: 28px; }
 }
+
 
 /* END OF STYLE.CSS */
