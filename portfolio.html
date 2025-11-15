@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Design By MM</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/Design_By_MM__6_-removebg-preview.webp">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <img src="images/Design_By_MM__4_-removebg-preview.png" alt="Logo" class="logo">
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="about.html">About Us</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- PORTFOLIO HERO -->
+    <section class="portfolio-hero">
+        <div class="portfolio-hero-content">
+            <h1>Our Portfolio</h1>
+            <p>Discover the spaces we’ve transformed with artistry, detail and emotion.</p>
+        </div>
+    </section>
+
+    <!-- FILTERS -->
+    <section class="portfolio-filters">
+        <button class="filter-btn active" data-filter="All">All</button>
+        <button class="filter-btn" data-filter="Residential">Residential</button>
+        <button class="filter-btn" data-filter="Commercial">Commercial</button>
+        <button class="filter-btn" data-filter="Furniture">Furniture</button>
+    </section>
+
+
+    <!-- PORTFOLIO GRID -->
+    <section class="portfolio-grid">
+        <div class="project-card" data-category="Residential">
+            <img src="images/portfolio/lotus-design-n-print-Yyl95d32dAM-unsplash.webp" alt="Modern Living Room">
+            <h3>Modern Living Room</h3>
+            <p>Neutral tones, warm textures & curated lighting.</p>
+        </div>
+
+        <div class="project-card" data-category="Residential">
+            <img src="images/portfolio/michael-brown-aBuOfDJZrvw-unsplash.webp" alt="Luxury Bedroom">
+            <h3>Luxury Master Suite</h3>
+            <p>A calming retreat with layered fabrics & bespoke décor.</p>
+        </div>
+
+        <div class="project-card" data-category="Commercial">
+            <img src="images/portfolio/hemant-kanojiya-2MRnWkAx4Fs-unsplash.webp" alt="Office Design">
+            <h3>Corporate Workspace</h3>
+            <p>Functional design blending productivity and elegance.</p>
+        </div>
+
+        <div class="project-card" data-category="Residential">
+            <img src="images/portfolio/lotus-design-n-print-I58Xjx0zzBQ-unsplash.webp" alt="Kitchen Interior">
+            <h3>Minimalist Kitchen</h3>
+            <p>Clean lines, marble finishes & smart spacing.</p>
+        </div>
+
+        <div class="project-card" data-category="Commercial">
+            <img src="images/portfolio/clark-street-mercantile-qnKhZJPKFD8-unsplash.webp" alt="Retail Space">
+            <h3>Boutique Retail Space</h3>
+            <p>Design that amplifies customer experience and flow.</p>
+        </div>
+
+        <div class="project-card" data-category="Residential">
+            <img src="images/portfolio/ruthie-schuster-OfSYY6Vs-pM-unsplash.webp" alt="Dining Room">
+            <h3>Contemporary Dining</h3>
+            <p>A harmonious blend of comfort and sophistication.</p>
+        </div>
+
+        <div class="project-card" data-category="Furniture">
+            <img src="images/portfolio/johnny-briggs-Asheyr3zRLE-unsplash.webp  " alt="Custom Sofa">
+            <h3>Bespoke Sofa Design</h3>
+            <p>Handcrafted piece tailored for style and comfort.</p>
+        </div>
+    </section>
+
+
+    <!-- TEXTURE SECTION -->
+    <section class="texture-break">
+        <h2>Design Is Not Just Seen. It Is Felt.</h2>
+        <p>Every project is a story crafted with intention and timeless style.</p>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials">
+        <h2>What Our Clients Say</h2>
+
+        <div class="testimonials-grid">
+
+            <div class="testimonial-card">
+                <p>"Design By MM completely transformed my home. The attention to detail is unmatched. Every corner feels intentional and warm."</p>
+                <h4>— Sarah M.</h4>
+            </div>
+
+            <div class="testimonial-card">
+                <p>"From concept to final touches, the process was smooth and professional. Our office has never looked better or functioned better."</p>
+                <h4>— The Greenline Team</h4>
+            </div>
+
+            <div class="testimonial-card">
+                <p>"The custom furniture pieces are stunning and perfectly suited to our space. We receive compliments all the time!"</p>
+                <h4>— David & Emma L.</h4>
+            </div>
+    </section>
+
+        <!-- FOOTER -->
+        <footer class="mm-footer">
+            <div class="mm-footer-top">
+                <div class="footer-about">
+                    <img src="images/Design_By_MM__6_-removebg-preview.webp" class="footer-logo" alt="Design By MM">
+                    <p>Crafting timeless interiors that elevate the way you live.</p>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="index.html">Home</a>
+                    <a href="services.html">Services</a>
+                    <a href="about.html">About Us</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p>Email: info@designbymm.co.za</p>
+                    <p>Phone: +27 000 000 0000</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2024 Design By MM. Transforming spaces with intention and artistry.</p>
+            </div>
+        </footer>
+
+    <!-- LIGHTBOX -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox" onclick="closeLightbox()">&times;</span>
+        <span class="open-lightbox" onclick="openLightbox()">&times;</span>
+        <img id="lightbox-img" src="">
+    </div>
+
+    <script src="/js/main.js"></script>
+
+</body>
+</html>
